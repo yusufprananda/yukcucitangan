@@ -137,7 +137,8 @@ img.card-img-top {
         /* background-attachment: fixed; */
     }
 
-    .sContent p {
+    .sContent p,
+    .sContent ol li {
         font-size: 12px;
     }
 
