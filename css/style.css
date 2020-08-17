@@ -1,0 +1,147 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: #ffffdd; */
+    background: url(../img/handwash1bg.svg),
+        url(../img/handwash2bg.svg),
+        linear-gradient(to bottom, #cbeaed, #cff1eb, #daf8e6, #eafce0, #ffffdd);
+    background-repeat: no-repeat;
+    background-attachment: fixed, fixed, scroll;
+    background-position: bottom -100px right -50px, bottom -30px left -30px, top 0px right 0px;
+    background-size: 25%, 20%, 100%;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 43px;
+    font-weight: 600;
+}
+
+.sLogo p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+hr {
+    width: 50%;
+    border-top: 1px solid;
+}
+
+img.logo {
+    width: 26px;
+}
+
+.judul {
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+    color: #006a71;
+}
+
+.nMenu {
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+}
+
+.nMenu a {
+    padding: 10px 40px;
+    color: #006a71;
+}
+
+.nMenu a:hover {
+    /* color: #ffffdd; */
+    text-decoration: none;
+    background: url(../img/bgmenu.svg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: top 55% right 50%;
+}
+
+.active {
+    background: url(../img/bgmenu.svg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: top 55% right 50%;
+    /* background-attachment: fixed; */
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+
+}
+
+img.card-img-top {
+    padding: 15px;
+    width: 100px;
+    text-align: center;
+}
+
+.fFooter {
+    margin-top: 0px;
+    font-size: 12px;
+    background-color: transparent;
+    color: #324b4f;
+}
+
+@media (max-width: 576px) {
+    body {
+        background: url(../img/handwash1bg.svg),
+            url(../img/handwash2bg.svg),
+            linear-gradient(to bottom, #cbeaed, #cff1eb, #daf8e6, #eafce0, #ffffdd);
+        background-repeat: no-repeat;
+        background-attachment: fixed, fixed, scroll;
+        background-position: bottom -40px right -30px, bottom -15px left -25px, top 0px right 0px;
+        background-size: 40%, 35%, 100%;
+    }
+
+    .judul {
+        font-family: 'Pacifico', cursive;
+        font-size: 60px;
+        color: #006a71;
+    }
+
+    .sLogo p {
+        font-size: 13px;
+        padding-top: 3px;
+        font-weight: 600;
+    }
+
+    iframe {
+        width: 300px;
+        height: 180px;
+    }
+
+    .nMenu {
+        font-family: 'Pacifico', cursive;
+        font-size: 13px;
+    }
+
+    .nMenu a {
+        padding: 0px 0px;
+        color: #006a71;
+    }
+
+    .nMenu a:hover {
+        /* color: #ffffdd; */
+        text-decoration: none;
+        background: url(../img/bgmenu.svg);
+        background-repeat: no-repeat;
+        background-size: 80px;
+        background-position: top 55% right 50%;
+    }
+
+    .active {
+        background: url(../img/bgmenu.svg);
+        background-repeat: no-repeat;
+        background-size: 80px;
+        background-position: top 55% right 50%;
+        /* background-attachment: fixed; */
+    }
+
+    .sContent p {
+        font-size: 12px;
+    }
+
+    .sContent small {
+        font-size: 10px;
+    }
+}
